@@ -11,6 +11,8 @@ Hexadecimální
 
 dejmi pivo = 5;
 dejmi rum = 0b0010;
+dejmi jedno = 2;
+dejmi druhy = 1;
 ```
 
 **Operace**
