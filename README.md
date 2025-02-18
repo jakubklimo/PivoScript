@@ -8,6 +8,9 @@ Binární
 0b[0-1]+
 Hexadecimální
 0x[0-9a-f]+
+
+dejmi pivo = 5;
+dejmi rum = 0b0010;
 ```
 
 **Operace**
@@ -17,6 +20,7 @@ Hexadecimální
 * - jedno * druhý
 / - jedno / druhý
 // - jedno // druhý
+! - jedno!
 ```
 
 **Porovnávání**
