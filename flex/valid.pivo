@@ -1,23 +1,22 @@
 dejmi pivo = 5;
+dejmi vodka = 0b010110;
+dejmi rum = 0x2a4F;
 dejmi jedno = 2;
 dejmi druhy = 1;
 
 dejmi vysledek = jedno + druhy;
 kecni(vysledek);
 
-// Podmínka
 hele (vysledek == 3) {
     kecni("To je jasný!");
 } jinac {
     kecni("To není ono.");
 }
 
-// Cyklus
 jestejedno (i = 0; i < pivo; i = i + 1) {
     kecni("Ještě jedno pivo!");
 }
 
-// Použití logických operací
 hele (pivo > rum tojejasny rum < jedno) {
     kecni("Pivo je lepší než rum.");
 }

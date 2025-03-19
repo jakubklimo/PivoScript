@@ -92,6 +92,8 @@ expression:
     | expression TOKEN_OR expression { print_tree("Logické OR"); }
     | TOKEN_NOT expression { print_tree("Logické NOT"); }
     | TOKEN_NUMBER { print_tree("Číslo"); printf("  Hodnota: %d\n", $1); }
+    | TOKEN_BINNUMBER { print_tree("Číslo binární"); printf("  Hodnota: %d\n", $1); }
+    | TOKEN_HEXNUMBER { print_tree("Číslo hexadecimální"); printf("  Hodnota: %d\n", $1); }
     | TOKEN_STRING { print_tree("Řetězec"); printf("  Hodnota: %s\n", $1); }
     | TOKEN_IDENTIFIER { print_tree("Identifikátor"); printf("  Název: %s\n", $1); }
     | TOKEN_LPAREN expression TOKEN_RPAREN { print_tree("Závorkový výraz"); }

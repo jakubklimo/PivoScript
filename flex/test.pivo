@@ -1,12 +1,1 @@
-dejmi pivo = 5;
-dejmi jedno = 2;
-dejmi druhy = 1;
-
-dejmi vysledek = jedno + druhy;
-kecni(vysledek);
-
-hele (vysledek == 3) {
-    kecni("To je jasný!");
-} jinac {
-    kecni("To není ono.");
-}
+dejmi pivo = 0b0101;
