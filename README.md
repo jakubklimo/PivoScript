@@ -24,7 +24,6 @@ dejmi zprava = "Nazdar světe!";
 - - jedno - druhý
 * - jedno * druhý
 / - jedno / druhý
-// - jedno // druhý
 ! - jedno!
 ```
 
