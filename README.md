@@ -8,11 +8,14 @@ Binární
 0b[0-1]+
 Hexadecimální
 0x[0-9a-f]+
+Řetězce  
+".*" 
 
 dejmi pivo = 5;
 dejmi rum = 0b0010;
 dejmi jedno = 2;
 dejmi druhy = 1;
+dejmi zprava = "Nazdar světe!";  
 ```
 
 **Operace**

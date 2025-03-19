@@ -1,0 +1,22 @@
+// Špatná deklarace proměnné (chybí "dejmi")
+pivo = 5;
+
+// Nesprávná binární hodnota (obsahuje 2, což není platné)
+dejmi rum = 0b102;
+
+// Chybný operátor (nepodporovaný %)
+dejmi zbytek = pivo % 2;
+
+// Chybná syntaxe podmínky (chybí složené závorky)
+hele (pivo > rum) 
+    kecni("Pivo vede!");
+
+// Chybějící inicializace v cyklu
+jestejedno (i < 5; i = i + 1) {
+    kecni("Tady něco chybí!");
+}
+
+// Špatný logický operátor (není definován "a nebo")
+hele (pivo > rum a nebo jedno < druhy) {
+    kecni("To nefunguje.");
+}
